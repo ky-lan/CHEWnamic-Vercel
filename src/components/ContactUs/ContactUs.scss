@@ -1,0 +1,75 @@
+.contact-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 0.75em;
+  top: -1.25em;
+}
+.contact-email {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em;
+  top: -3em;
+}
+.contact-phone {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em;
+  top: -3.25em;
+}
+.contact-times {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  line-height: 1.5em;
+  left: 1em;
+  top: -3.25em;
+}
+
+
+.contact-bg {
+  background-image: url('../../images/GumBoxes1.png');
+    width:1145px;
+    height:954px;
+    position:relative;
+    top:-26.5em;
+    left: 31em;
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    // outline: 1px solid red;
+    z-index: -1;
+}
+
+
+.contact-products-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 1em 1em 0.55em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 0em;
+  position: relative;
+  top: -22.25em;
+  left: 1.75em;
+  border-radius: 2em;
+}
+.contact-products-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  cursor: pointer;
+}

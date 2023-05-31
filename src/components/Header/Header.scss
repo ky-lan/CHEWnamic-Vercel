@@ -1,0 +1,112 @@
+.bgHeader {
+  background-color: #420B3B;
+  padding-bottom: 1.5em;
+  box-shadow: 0px 1px 15px black;
+  z-index: 1;
+}
+
+
+.logo-text1 {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-weight: Bold;
+  text-decoration: none;
+  margin-left: 0.4em;
+  margin-bottom: -3em;
+  position: relative;
+  line-height: 0em;
+  top:1em;
+  font-size:2em;
+  float: left;
+}
+.logo-text1:link {
+  color: #FFFCF5;
+}
+.logo-text1:visited {
+  color: #FFFCF5;
+}
+.logo-text1:hover {
+  color: #FFFCF5;
+}
+.logo-text1:active {
+  color: #FFFCF5;
+}
+
+.logo-text2 {
+  // margin-left: 1em;
+  // margin-bottom: -3em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  margin-bottom: -3em;
+  position: relative;
+  font-weight: Bold;
+  text-decoration: none;
+  line-height: 0em;
+  top:0.48em;
+  left: 3em;
+  font-size:2em;
+}
+.logo-text2:link {
+  color: #FF8B2C;
+}
+.logo-text2:visited {
+  color: #FF8B2C;
+}
+.logo-text2:hover {
+  color: #FF8B2C;
+}
+.logo-text2:active {
+  color: #FF8B2C;
+}
+
+
+.bgHeaderLinks {
+  //  float:right;
+  //  margin: 0em;
+  position: fixed;
+//  display:inline-block;
+  //  right: -250%;
+  top: 0em;
+  //  left: 37em;
+  right:-0.5em;
+  // right: -34.75em;
+  // text-align:right;
+  float: right;
+  // margin:0px auto 0px auto;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  display: flex;
+  // margin-right: em;
+}
+.bgHeaderLinks a{
+  text-decoration: none;
+  color:#FF8B2C;
+}
+.bgHeaderHome {
+  margin-right:1em;
+}
+// .bgHeaderProducts {
+//   margin-right:1em;
+// }
+.bgHeaderAbout {
+  margin-right:1em;
+}
+.bgHeaderCustom {
+  margin-right:1em;
+}
+.bgHeaderCartIcon {
+  margin-right:0.3em;
+  // position:absolute;
+  // top:0.1em;
+  // right:12.5em;
+  position: relative;
+  top: 0.1em;
+  color:#FF8B2C;
+  display: inline-block;
+}
+.bgHeaderCart {
+  margin-right:1em;
+//  display: inline-block;
+}
+.bgHeaderContact{
+  margin-right:1em;
+}

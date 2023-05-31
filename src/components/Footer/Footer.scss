@@ -1,0 +1,119 @@
+.bgFooter {
+  background-color: #420B3B;
+  // padding-bottom: 1em;
+  // box-shadow: 0px 1px 15px black;
+  // z-index: 1;
+  position: fixed;
+  bottom: -2em;
+  width:100%;
+  // outline: 1px solid red;
+}
+
+
+#footer-row {
+  display:inline-block
+}
+#footer-year {
+  display:table-cell;
+  // background-color:red;
+  width:3.5em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size:1em;
+  color: #FF8B2C;
+  position: relative;
+  left: 0.75em;
+  top: -0.5em;
+}
+#logo-text1 {
+  display:table-cell;
+  // background-color:orange;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-weight: Bold;
+  text-decoration: none;
+  margin-left: 1em;
+  // margin-bottom: -3em;
+  position: relative;
+  left: 0.75em;
+  top:-0.5em;
+  font-size:1em;
+  // float: left;
+  width: 2.5em;
+}
+#logo-text1:link {
+  color: #FFFCF5;
+}
+#logo-text1:visited {
+  color: #FFFCF5;
+}
+#logo-text1:hover {
+  color: #FFFCF5;
+}
+#logo-text1:active {
+  color: #FFFCF5;
+}
+
+#logo-text2 {
+  // margin-left: 1em;
+  // margin-bottom: -3em;
+  display:table-cell;
+  // background-color:blue;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-weight: Bold;
+  text-decoration: none;
+  position: relative;
+  left: 0.75em;
+  top:-0.5em;
+  font-size:1em;
+  // float: right;
+  width: 3em;
+}
+#logo-text2:link {
+  color: #FF8B2C;
+}
+#logo-text2:visited {
+  color: #FF8B2C;
+}
+#logo-text2:hover {
+  color: #FF8B2C;
+}
+#logo-text2:active {
+  color: #FF8B2C;
+}
+
+
+#footer-reserved {
+  display:table-cell;
+  // background-color:green;
+  width:10em;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size:1em;
+  color: #FF8B2C;
+  position: relative;
+  left: 1em;
+  top: -0.5em;
+}
+
+
+
+.footer-links {
+  display: flex;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+}
+.footer-links, .footer-links a:link, .footer-links a:visited {
+  text-decoration: none;
+  // font-weight: bold;
+  color:#FF8B2C;
+}
+.privacy-link {
+  position:fixed;
+  right: 0em;
+  bottom: 0em;
+  margin-right: 1em;
+}
+.terms-link {
+  position:fixed;
+  right: 6em;
+  bottom: 0em;
+  // margin-right: 2.2em;
+}

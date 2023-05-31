@@ -1,0 +1,398 @@
+// .cart-everything {
+//   // outline: 1px solid red;
+//   // height: 780px;
+// }
+.cart-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 0.75em;
+  top: -1.25em;
+  display: flex;
+  max-width: 50%;
+  // outline: 1px solid red;
+}
+.cart-product-names {
+  display: flex;
+  position: relative;
+  top: -5.5em;
+  left: 1em;
+}
+.cart-product-name1 {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 2.25em;
+  top:0em;
+  // outline: 1px solid red;
+}
+.cart-product-name2 {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 11.25em;
+  top:0em;
+  // outline: 1px solid red;
+}
+.cart-product-name3 {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 20em;
+  top:0em;
+  // outline: 1px solid red;
+}
+
+.cart-carousel {
+  display: flex;
+}
+.cart-carousel-l-arrow {
+  position: relative;
+  top: -0.25em;
+  left:0.75em;
+}
+.cart-carousel-item1 {
+  display: flex;
+}
+.cart-carousel-item1-img {
+  position: relative;
+  top: -7em;
+  left: 1.5em;
+  // display: flex;
+  // object-fit: cover;
+  // width: 100%;
+  // height: 250px;
+  // max-width:230px;
+  // max-height:95px;
+  // width: auto;
+  // height: auto;
+}
+.cart-carousel-item1-info {
+  // display: flex;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position: relative;
+  top: -5.25em;
+  left: 2em;
+  line-height: 0.5em;
+}
+.cart-carousel-item1-info-minus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.89em 0.45em 0.39em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  // top: -5em;
+  // left: 2em;
+  line-height: 0em;
+}
+.cart-carousel-item1-info-minus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item1-info-plus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.95em 0.45em 0.45em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 2.25em;
+  line-height: 0em;
+}
+.cart-carousel-item1-info-plus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item1-info-rm button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 1.25em 1em 0.75em 1em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 0em;
+  line-height: 0em;
+}
+.cart-carousel-item1-info-rm button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+
+.cart-carousel-item2 {
+  display: flex;
+}
+.cart-carousel-item2-img {
+  position: relative;
+  top: -7em;
+  left: 6.25em;
+  // display: flex;
+  // object-fit: cover;
+  // width: 100%;
+  // height: 250px;
+  // max-width:230px;
+  // max-height:95px;
+  // width: auto;
+  // height: auto;
+}
+.cart-carousel-item2-info {
+  // display: flex;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position: relative;
+  top: -5.25em;
+  left: 5.75em;
+  line-height: 0.5em;
+}
+.cart-carousel-item2-info-minus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.89em 0.45em 0.39em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  // top: -5em;
+  // left: 2em;
+  line-height: 0em;
+}
+.cart-carousel-item2-info-minus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item2-info-plus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.95em 0.45em 0.45em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 2.25em;
+  line-height: 0em;
+}
+.cart-carousel-item2-info-plus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item2-info-rm button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 1.25em 1em 0.75em 1em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 0em;
+  line-height: 0em;
+}
+.cart-carousel-item2-info-rm button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+
+.cart-carousel-item3 {
+  display: flex;
+}
+.cart-carousel-item3-img {
+  position: relative;
+  top: -7em;
+  left: 10.75em;
+  // display: flex;
+  // object-fit: cover;
+  // width: 100%;
+  // height: 250px;
+  // max-width:230px;
+  // max-height:95px;
+  // width: auto;
+  // height: auto;
+}
+.cart-carousel-item3-info {
+  // display: flex;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position: relative;
+  top: -5.25em;
+  left: 9.5em;
+  line-height: 0.5em;
+}
+.cart-carousel-item3-info-minus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.89em 0.45em 0.39em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  // top: -5em;
+  // left: 2em;
+  line-height: 0em;
+}
+.cart-carousel-item3-info-minus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item3-info-plus button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 0.95em 0.45em 0.45em 0.45em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 2.25em;
+  line-height: 0em;
+}
+.cart-carousel-item3-info-plus button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+.cart-carousel-item3-info-rm button {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  background-color:#420B3B;
+  color: #FF8B2C;
+  // height: 2em;
+  padding: 1.25em 1em 0.75em 1em;
+  border: none;
+  border-radius: 1em;
+  position: relative;
+  top: -1.42em;
+  left: 0em;
+  line-height: 0em;
+}
+.cart-carousel-item3-info-rm button:hover {
+  cursor: pointer;
+  background-color: #FFFCF5;
+  color: #420B3B;
+}
+
+
+.cart-carousel-r-arrow {
+  position: relative;
+  top: -0.25em;
+  left:21.5em;
+}
+
+
+.cart-subtotal {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 3em;
+  top:-2.5em;
+  // outline: 1px solid red;
+}
+.cart-disclaimer {
+  // display: flex;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color:#420B3B;
+  position: relative;
+  top: -3.75em;
+  left: 3.5em;
+  line-height: 0.5em;
+}
+.cart-keepshopping button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -2.25em;
+  left: 2.25em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.cart-keepshopping button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  cursor: pointer;
+  // outline: 10px solid red;
+}
+.cart-checkout button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 0.75em 1em 0.25em 1em;
+  line-height: 1em;
+  position: relative;
+  top: -1.75em;
+  left: 3.5em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.cart-checkout button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  cursor: pointer;
+  // outline: 10px solid red;
+}

@@ -1,0 +1,119 @@
+// html, body {
+//   height: 100%;
+//   width: 100%; 
+//   margin: 0;
+// }
+.about-title {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1em;
+  // font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  // text-align: center;
+  left: 0.75em;
+  top: -0.5em;
+  line-height: 1.5;
+  // outline: 1px solid red;
+  // outline: 1px solid red;
+  max-width: 50%;
+  // outline: 10px solid red;
+}
+.about-body {
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#420B3B;
+  position:relative;
+  left: 1em;
+  top: -1.25em;
+  width: 75%;
+  // inline-size: 35em;
+  line-height: 2;
+  max-height: 25em;
+  overflow-wrap: break-word;
+  // outline: 10px solid red;
+}
+// .about-slogan {
+//   font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+//   font-size: 2.5em;
+//   font-weight: bold;
+//   color:#D5CB35;
+//   position:relative;
+//   inline-size: 16em;
+//   overflow-wrap: break-word;
+// }
+
+.about-everything {
+  display: flex;
+  max-height: 43em;
+  // max-height: 100%;
+  // outline: 10px solid red;
+}
+
+
+
+// .about-btns {
+  // outline: 1px solid red;
+// }
+.about-custom-made-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color:#FFFCF5;
+  background-color: #420B3B;
+  padding: 1em 1em 0.5em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 0em;
+  white-space: nowrap;
+  // text-align: center;
+  position: relative;
+  top: 7.75em;
+  left: -17.5em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.about-custom-made-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  cursor: pointer;
+}
+
+.about-premade-btn1 button {
+  border: none;
+  font-family: 'Baloo Tammudu 2', Nunito, Quicksand, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#FF8B2C;
+  background-color: #420B3B;
+  padding: 1em 1em 0.5em 1em;
+  // padding-bottom: -1em;
+  // margin: -1em;
+  line-height: 0em;
+  position: relative;
+  top: 11.25em;
+  left: -19.75em;
+  border-radius: 2em;
+  // outline: 1px solid red;
+}
+.about-premade-btn1 button:hover {
+  background-color: #FFFCF5;
+  color: #420B3B;
+  cursor: pointer;
+}
+
+
+.about-bg {
+  background-image: url('../../images/GumBoxes1.png');
+  width:1145px;
+  height:954px;
+  position:relative;
+  top:-3.5em;
+  left: -12em;
+  background-size:100%;
+  background-repeat: no-repeat;
+  // height: 90vh;
+  // outline: 1px solid red;
+  z-index: -1;
+}
